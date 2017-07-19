@@ -4,36 +4,52 @@ html {
 
 body {
 margin: 0;
+
 }
 
 header {
     background: blue;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 ul {
-    margin: 0%;
+    margin: 0% auto;
     padding: 0%;
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    height: 75%;
 }
 
 .content-wrapper {
     margin: 1%;
 }
 .siteTitle {
-    padding: 1.5%;
+    padding: .5% 0%;
     width: 100%;
     text-align: center;
-    font-size: 200%;
+    font-size: 175%;
     color: white;
 }
 .navvy {
+    background:#f7f7f7;
+    height: 35px;
     width: 100%;
     text-align: center;
-    color: white;
+    position: relative;
  
 }
 .navvy li {
     display: inline;
-    margin: 8%;  
+    margin: 0%; 
+    width: 25%; 
+    height: 100%;
+    float: left;
+}
+
+.navvy li:hover {
+    border-bottom: blue solid 3px;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -41,15 +57,13 @@ ul {
         margin: 3%;
     }
     .siteTitle {
-        margin: 2%;
+        padding: 2%;
     }
 
     ul {
         margin: 1%;
     }
 
-    .navvy li {
-        margin: 3.5%;
-    }
+  
 
 }
