@@ -86,4 +86,9 @@ footer {
     .side-content, .content-articles {
         width: inherit;
     }
+
+    .side-content{
+        float: none;
+        text-align: center;
+    }
   }
