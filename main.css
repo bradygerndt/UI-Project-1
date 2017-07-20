@@ -86,4 +86,14 @@ footer {
     .side-content, .content-articles {
         width: inherit;
     }
+    .side-content {
+        text-align: center;
+        float: none;
+        margin: 5%;
+        padding-bottom: 4em;
+    }
+    img {
+        width: 80%;
+        
+    }
   }
