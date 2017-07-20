@@ -3,7 +3,8 @@ html {
     min-height: 100%;
 }
 html, body {
-    font-family: Arial, Helvetica, sans-serif; 
+    /*font-family: Arial, Helvetica, sans-serif;*/ 
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -24,8 +25,7 @@ img {
     max-width: 100%;
 }
 .wrapper {
-    height: 50%;
-    margin-bottom: 2em;
+    margin: auto 12.5% 2em;
 }
 .content-articles {
     margin: 10%;
@@ -47,7 +47,7 @@ img {
 }
 .side-content {
     float: right;
-    margin: 10% 10% auto;
+    margin: 10%;
     width: 20%;
     padding-bottom: 3em;
 }
@@ -55,8 +55,8 @@ footer {
     color: grey;
     margin-top: 5em;
     font-size: 75%;
-    padding: 1em;
-    height: 1em;
+    padding: 1em 0;
+    height: 2em;
     background: #f7f7f7;
     bottom: 0;
     text-align: center;
@@ -76,8 +76,11 @@ footer {
     cursor: pointer;
 }
 @media (max-width: 600px) {
+    .wrapper{
+        margin: auto;
+    }
     .siteTitle {
-        padding: 2%;
+        padding: 2% 0%;
     }
     .side-content, .content-articles {
         width: inherit;
