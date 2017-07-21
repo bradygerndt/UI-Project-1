@@ -73,7 +73,7 @@ footer {
     float: left;
 }
 .navvy li:hover {
-    border-bottom: blue solid 3px;
+    border-bottom: #603600 solid 3px;
     cursor: pointer;
 }
 @media (max-width: 600px) {

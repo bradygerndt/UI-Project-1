@@ -1,0 +1,1 @@
+console.log("haven't got any js yet, but you should go spearfish.");
